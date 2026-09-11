@@ -1,0 +1,55 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "FounderRunway - Bootstrapped Startup Burn Rate & Runway Arbitrage API",
+    "description": "Runway multiplier math comparing high-cost tech hubs with Bansko and Medell\u00edn. Official production documentation hosted at https://site-9-inky.vercel.app/",
+    "version": "1.1.0",
+    "contact": {
+      "name": "FounderRunway Architecture Team",
+      "url": "https://site-9-inky.vercel.app/"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://site-9-inky.vercel.app",
+      "description": "Production Web Application Gateway"
+    }
+  ],
+  "paths": {
+    "/api/v1/runway-multiplier": {
+      "get": {
+        "summary": "Simulate runway expansion in months across global startup hubs",
+        "description": "Executes the empirical calculations and data models for FounderRunway.",
+        "responses": {
+          "200": {
+            "description": "Successful calculation response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "example": "ok"
+                    },
+                    "timestamp": {
+                      "type": "string",
+                      "format": "date-time"
+                    },
+                    "site_url": {
+                      "type": "string",
+                      "example": "https://site-9-inky.vercel.app/"
+                    },
+                    "data": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
