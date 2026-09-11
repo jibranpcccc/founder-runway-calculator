@@ -16,3 +16,13 @@ Geographic runway arbitrage metrics, founder cost-of-living indexes, and default
 
 ---
 Maintained by [FounderRunway](https://site-9-inky.vercel.app/).
+
+## 📚 In-Depth Technical Implementation Guides
+
+| Target Engineering Query | Production Reference & Guide URL |
+| :--- | :--- |
+| **Founder Runway Calculator** | [https://site-9-inky.vercel.app/](https://site-9-inky.vercel.app/) |
+| **Chiang Mai Vs Bali Cost For Founders** | [https://site-9-inky.vercel.app/chiang-mai-vs-bali-runway-calculator/](https://site-9-inky.vercel.app/chiang-mai-vs-bali-runway-calculator/) |
+| **Bootstrapped Founder Runway Calculation Formula** | [https://site-9-inky.vercel.app/founder-runway-formula-math/](https://site-9-inky.vercel.app/founder-runway-formula-math/) |
+| **Taiwan Gold Card Tech Founder Tax Reduction** | [https://site-9-inky.vercel.app/taiwan-gold-card-founder-tax/](https://site-9-inky.vercel.app/taiwan-gold-card-founder-tax/) |
+
